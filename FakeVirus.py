@@ -15,8 +15,8 @@ volume = cast(interface, POINTER(IAudioEndpointVolume))
 
 mixer = pygame.mixer
 mixer.init()
-music = mixer.Sound("that one wind sound from undertale (tm).wav")
-music2 = mixer.Sound("PWAA.wav")
+music = mixer.Sound("_____")  ##Insert specific wav file within here. Make sure the path to the file is correct.
+music2 = mixer.Sound("_____")   ##Insert specific wav file within here. Make sure the path to the file is correct.
 
 from TextToSpeech import voice
 
